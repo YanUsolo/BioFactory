@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+    <h2 class="block-title">Таблицы из база данных</h2>
+
+    <div class="dropBox" >
+        <select class = "dropBoxSelectTable" name="table" >
+            <option value="CompProduct">Computationy Product</option>
+            <option value="ConfigProduct">Config Product</option>
+            <option value="AllDay">AllDay</option>
+        </select>
+    </div>
+    <div class="tableDiv">
+        <table>
+            <thead class="table-header">
+            <tr>
+                <th>Id</th>
+                <th>All Mass</th>
+                <th>Day Mass</th>
+                <th>Night Mass</th>
+                <th>All MassSV</th>
+                <th>Day MassSV</th>
+                <th>Night MassSV</th>
+                <th>All MassWater</th>
+                <th>Day MassWater</th>
+                <th>Night MassWater</th>
+                <th>Day RelationSV</th>
+                <th>Night RelationSV</th>
+                <th>All RelationSV</th>
+                <th>Day SerovodorodDay</th>
+                <th>All SerovodorodNight</th>
+                <th>GPA</th>
+                <th>Date</th>
+                <th>1>Перейти к сырью</th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr class="trClass">
+                <td name="id" class="row-id">1</td>
+                <td name="allMass" data-value={param}>200</td>
+                <td name="dayMass">80</td>
+                <td name="nightMass">60</td>
+                <td name="allMassSV ">140</td>
+                <td >50</td>
+                <td>30</td>
+                <td>60</td>
+                <td>30</td>
+                <td>30</td>
+                <td>13.2</td>
+                <td>15.2</td>
+                <td>14.2</td>
+                <td>0.2</td>
+                <td>0.4</td>
+                <td>1.2</td>
+                <td>08.03.2019</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">2</td>
+                <td name="allMass" data-value={param}>140</td>
+                <td name="dayMass">60</td>
+                <td name="nightMass">20</td>
+                <td name="allMassSV ">80</td>
+                <td >40</td>
+                <td>20</td>
+                <td>10</td>
+                <td>15</td>
+                <td>40</td>
+                <td>11.9</td>
+                <td>13.9</td>
+                <td>12.9</td>
+                <td>1.2</td>
+                <td>3.4</td>
+                <td>1.2</td>
+                <td>09.03.2019</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">3</td>
+                <td name="allMass" data-value={param}>140</td>
+                <td name="dayMass">60</td>
+                <td name="nightMass">20</td>
+                <td name="allMassSV ">80</td>
+                <td >40</td>
+                <td>20</td>
+                <td>10</td>
+                <td>15</td>
+                <td>40</td>
+                <td>11.9</td>
+                <td>13.9</td>
+                <td>12.9</td>
+                <td>1.2</td>
+                <td>3.4</td>
+                <td>1.2</td>
+                <td>09.03.2019</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">4</td>
+                <td name="allMass" data-value={param}>160</td>
+                <td name="dayMass">60</td>
+                <td name="nightMass">20</td>
+                <td name="allMassSV ">80</td>
+                <td >40</td>
+                <td>20</td>
+                <td>10</td>
+                <td>15</td>
+                <td>40</td>
+                <td>11.9</td>
+                <td>13.9</td>
+                <td>12.9</td>
+                <td>1.2</td>
+                <td>3.4</td>
+                <td>1.2</td>
+                <td>09.03.2019</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">5</td>
+                <td name="allMass" data-value={param}>170</td>
+                <td name="dayMass">110</td>
+                <td name="nightMass">60</td>
+                <td name="allMassSV ">50</td>
+                <td >33</td>
+                <td>5.4</td>
+                <td>11.02</td>
+                <td>15</td>
+                <td>66</td>
+                <td>23</td>
+                <td>3.33</td>
+                <td>122</td>
+                <td>25</td>
+                <td>63</td>
+                <td>36</td>
+                <td>03.03.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">6</td>
+                <td name="allMass" data-value={param}>140</td>
+                <td name="dayMass">105</td>
+                <td name="nightMass">35</td>
+                <td name="allMassSV ">70</td>
+                <td >65</td>
+                <td>11</td>
+                <td>46</td>
+                <td>30</td>
+                <td>78</td>
+                <td>99</td>
+                <td>33</td>
+                <td>78</td>
+                <td>34</td>
+                <td>22</td>
+                <td>2.33</td>
+                <td>06.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">7</td>
+                <td name="allMass" data-value={param}>190</td>
+                <td name="dayMass">110</td>
+                <td name="nightMass">80/td>
+                <td name="allMassSV ">30</td>
+                <td >62.33</td>
+                <td>14.7</td>
+                <td>69.69</td>
+                <td>35.53</td>
+                <td>46.2</td>
+                <td>12.4</td>
+                <td>13</td>
+                <td>48.4</td>
+                <td>12.1</td>
+                <td>66</td>
+                <td>56</td>
+                <td>02.02.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">8</td>
+                <td name="allMass" data-value={param}>85</td>
+                <td name="dayMass">65</td>
+                <td name="nightMass">25</td>
+                <td name="allMassSV ">30</td>
+                <td >16</td>
+                <td>18</td>
+                <td>98</td>
+                <td>46.5</td>
+                <td>12.3</td>
+                <td>45.6</td>
+                <td>11.22</td>
+                <td>86</td>
+                <td>98</td>
+                <td>65</td>
+                <td>32</td>
+                <td>22.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">9</td>
+                <td name="allMass" data-value={param}>100</td>
+                <td name="dayMass">25</td>
+                <td name="nightMass">35</td>
+                <td name="allMassSV ">20/td>
+                <td >41</td>
+                <td>36</td>
+                <td>78</td>
+                <td>32</td>
+                <td>15</td>
+                <td>95</td>
+                <td>66</td>
+                <td>44</td>
+                <td>20</td>
+                <td>17</td>
+                <td>39</td>
+                <td>10.02.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">10</td>
+                <td name="allMass" data-value={param}>120</td>
+                <td name="dayMass">70</td>
+                <td name="nightMass">50</td>
+                <td name="allMassSV ">60</td>
+                <td >32</td>
+                <td>46</td>
+                <td>55</td>
+                <td>87</td>
+                <td>96</td>
+                <td>74</td>
+                <td>20</td>
+                <td>1.33</td>
+                <td>88.65</td>
+                <td>46</td>
+                <td>62</td>
+                <td>03.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >79</td>
+                <td>46</td>
+                <td>13</td>
+                <td>24</td>
+                <td>86</td>
+                <td>52</td>
+                <td>58</td>
+                <td>3.33</td>
+                <td>25.62</td>
+                <td>20.30</td>
+                <td>46.12</td>
+                <td>12.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >34.12</td>
+                <td>98.63</td>
+                <td>12</td>
+                <td>78</td>
+                <td>10</td>
+                <td>23</td>
+                <td>76</td>
+                <td>69</td>
+                <td>46</td>
+                <td>75</td>
+                <td>89</td>
+                <td>20.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >65</td>
+                <td>21</td>
+                <td>42</td>
+                <td>12</td>
+                <td>37</td>
+                <td>20</td>
+                <td>34</td>
+                <td>67</td>
+                <td>93</td>
+                <td>71</td>
+                <td>12.33</td>
+                <td>10.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >3.61</td>
+                <td>30</td>
+                <td>74</td>
+                <td>92</td>
+                <td>32</td>
+                <td>120</td>
+                <td>3.11</td>
+                <td>46.9</td>
+                <td>12.22</td>
+                <td>12.34</td>
+                <td>16</td>
+                <td>13.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >70</td>
+                <td>32</td>
+                <td>30</td>
+                <td>19.32</td>
+                <td>26</td>
+                <td>13.02</td>
+                <td>16.98</td>
+                <td>17.64</td>
+                <td>59.3</td>
+                <td>76.3</td>
+                <td>9.34</td>
+                <td>25.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >76.25</td>
+                <td>16.54</td>
+                <td>96.14</td>
+                <td>63.2</td>
+                <td>79</td>
+                <td>63.20</td>
+                <td>97.2</td>
+                <td>75.33</td>
+                <td>35.17</td>
+                <td>45.3</td>
+                <td>4.56</td>
+                <td>14.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr class="trClass">
+                <td name="id" class="row-id">Id</td>
+                <td name="allMass" data-value={param}>{param}</td>
+                <td name="dayMass">Day Mass</td>
+                <td name="nightMass">Night Mass</td>
+                <td name="allMassSV ">All MassSV</td>
+                <td >78.56</td>
+                <td>23.6</td>
+                <td>14.14</td>
+                <td>13.15</td>
+                <td>79</td>
+                <td>56</td>
+                <td>45</td>
+                <td>78.62</td>
+                <td>12.20</td>
+                <td>62.31</td>
+                <td>78</td>
+                <td>16.06.19</td>
+                <td>Перейти к сырью</td>
+            </tr>
+            <tr > </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

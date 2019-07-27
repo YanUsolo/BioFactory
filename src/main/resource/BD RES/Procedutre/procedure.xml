@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sql-query name="FB_INTERFACE_PACK.ICARD_PAYMENT" callable="true">
+    <return class="getstatuscount.CIcardList">
+        <return-property name="O_Summ" column="O_SUMM"/>
+        <return-property name="O_Result" column="O_RESULT"/>
+        <return-property name="I_Card_Login" column="I_CARD_LOGIN"/>
+        <return-property name="I_Client_Id" column="I_CLIENT_ID"/>
+    </return>
+    {call  FB_INTERFACE_PACK.ICARD_PAYMENT(:O_Summ,:O_Result,:I_Card_Login,:I_Client_Id)}
+</sql-query>

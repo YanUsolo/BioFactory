@@ -1,0 +1,79 @@
+* { 
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+body { 
+	font: 14px/1.4 Arial;
+	background: #f3f3f3;
+}
+
+
+.app {
+	width: 100%;
+	padding: 15px 20px;
+}
+
+.tableDiv
+{
+	overflow-x: auto;
+	box-shadow: 0 0 9px #44444447;
+}
+
+.table-header {
+	background: #333;
+}
+
+.table-header th{
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 6px 15px;
+	border: 1px solid hsla(0, 0%, 76%, 0.2);
+}
+
+.trClass td {
+	padding: 10px 15px;
+	border-right: 1px solid hsla(0, 0%, 77%, 1);
+}
+
+.trClass td:last-of-type {
+	border-right: none;
+}
+
+.trClass input {
+	background: hsla(0, 0%, 88%, 1);
+	border: 0;
+	padding: .5em;
+	box-shadow: 0 0 1px #9a9a9a;
+}
+
+.dropBoxSelectTable{
+	margin: 10px 0 10px;
+	padding: 0.5em 0.8em;
+	font-size: 15px;
+}
+
+.block-title
+{
+	font-size: 26px;
+}
+
+#page-wrap {
+	margin: 0px;
+}
+p {
+	margin: 20px 0;
+}
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.trClass:nth-of-type(odd) {
+	background: rgb(255, 255, 255);
+}
