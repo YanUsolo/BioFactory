@@ -21,7 +21,7 @@
     <hibernate.version>5.2.2.Final</hibernate.version>
     <mysql.version>5.1.46</mysql.version>
     <javax.servlet>3.0.1</javax.servlet>
-    <jackson.databind-version>2.2.3</jackson.databind-version>
+    <jackson.databind-version>2.12.7.1</jackson.databind-version>
   </properties>
 
   <dependencies>
